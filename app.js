@@ -39,6 +39,6 @@ app.use('/server/users', usersRouter);
 app.use('/server/articles', articlesRouter);
 app.use('/server/login', loginRouter);
 
-app.get('*', (request, response) => {response.sendFile(path.join(__dirname, 'build/index.html'))});
+app.get('*', (request, response) => {response.sendFile(path.join(__dirname, 'client/build/index.html'))});
 
 module.exports = app;
