@@ -28,7 +28,7 @@ app.use(compression());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
-app.use('/static', express.static(path.join(__dirname + '/client/build', 'static')));
+app.use('/static', express.static(path.join(__dirname + '/build', 'static')));
 app.use(cors());
 app.use(function (errors, request, response, next) {
   response.json({errors: errors});
@@ -39,6 +39,6 @@ app.use('/server/users', usersRouter);
 app.use('/server/articles', articlesRouter);
 app.use('/server/login', loginRouter);
 
-app.get('*', (request, response) => {response.sendFile(path.join(__dirname, 'client/build/index.html'))});
+app.get('*', (request, response) => {response.sendFile(path.join(__dirname, 'build/index.html'))});
 
 module.exports = app;
