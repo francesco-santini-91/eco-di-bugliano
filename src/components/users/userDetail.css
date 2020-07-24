@@ -1,0 +1,39 @@
+.profileLabel {
+    text-align: center;
+}
+
+.check {
+    margin-left: 10px;
+}
+
+.checkLabel {
+    margin-left: 40px;
+}
+
+.buttons {
+    margin-top: 8px;
+    margin-right: 10px;
+    max-width: 350px;
+}
+
+.buttonNewUser {
+    height: 96px;
+}
+
+.buttonDel {
+    height: 96px;
+}
+
+.inputForm {
+    max-width: 250px;
+    margin-bottom: 15px;
+}
+
+.alertLabel {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.label {
+    margin-bottom: 0px;
+}

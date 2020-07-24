@@ -1,0 +1,24 @@
+.Article {
+    align-items: left;
+}
+
+.imageURL {
+    align-items: center;
+    width: 300px;
+    height: 150px;
+}
+
+.title {
+    margin-top: 5px;
+    text-align: left;
+}
+
+.subtitle {
+    text-align: left;
+    font-weight: bold;
+}
+
+.content {
+    display: inline;
+    font-style: italic;
+}

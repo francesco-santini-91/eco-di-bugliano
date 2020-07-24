@@ -1,0 +1,23 @@
+.Articles {
+    align-items: center;
+    text-align: justify;
+    padding-top: 5px;
+}
+
+.NoArticles {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.pages {
+    text-align: center;
+    align-items: center;
+}
+
+.spinner-border {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}

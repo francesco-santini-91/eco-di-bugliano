@@ -1,0 +1,11 @@
+.titleLabel {
+    text-align: center;
+}
+
+.abortButton {
+    margin-top: 8px;
+}
+
+.saveButton {
+    height: 96px;
+}

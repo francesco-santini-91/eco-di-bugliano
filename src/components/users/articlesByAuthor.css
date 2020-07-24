@@ -1,0 +1,16 @@
+.titleLabel {
+    text-align: center;
+}
+
+.editDelete {
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+.buttonDelete {
+    height: 96px;
+}

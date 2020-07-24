@@ -1,0 +1,34 @@
+.Footer {
+    padding-bottom: 55px;
+    align-items: center;
+}
+
+.footerContent {
+    align-items: center;
+    font-style: normal;
+    text-align: center;
+    font-size: smaller;
+    color: rgb(228, 220, 220);
+}
+
+.notAccepted {
+    text-align: center;
+    display: flex;
+}
+
+.cookieButton {
+    align-items: center;
+}
+
+.powered {
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.bg-dark {
+    background-color: #495057!important;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
