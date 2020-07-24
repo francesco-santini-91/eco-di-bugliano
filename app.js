@@ -15,7 +15,7 @@ var articlesRouter = require('./routes/articles');
 var loginRouter = require('./routes/login');
 
 
-DBConnection('mongodb+srv://databaseUser:Pisacane40@cluster0-4igcc.azure.mongodb.net/EcoDiBugliano?retryWrites=true&w=majority')
+DBConnection(process.env.MONGODB_URL)
   .then(() => console.log('Connection ok'))
   .catch(error => console.log('Connection to MongoDB failed'));
 
