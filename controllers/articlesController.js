@@ -5,7 +5,7 @@ const articlesPerPage = 5;  // Da impostare anche nelle funzioni lato client per
 
 exports.getArticlesList_GET = async function(request, response, next) {
     /* La funzione restituisce la lista di tutti gli articoli presenti nel database.
-     * Vengono restituiti 10 articoli per ogni pagina, ordinati dal più recente. */
+     * Vengono restituiti 5 articoli per ogni pagina, ordinati dal più recente. */
     var articlesLimit = articlesPerPage;
     if(request.query.page == undefined) {
         articlesLimit = 10000;
