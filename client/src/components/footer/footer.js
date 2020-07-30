@@ -27,7 +27,7 @@ class footer extends Component {
             <div className="Footer">
                 <nav className="navbar navbar-dark bg-dark fixed-bottom footerContent">
                     <div className="accepted" hidden={!this.state.GDPRAccepted}>
-                        <p className="powered">ecodibugliano.it</p>
+                        <p className="powered">www.ecodibugliano.it</p>
                         <p className="powered">Powered by <a href="https://facebook.com/santo1991" target="_blank" rel="noopener noreferrer">Francesco Santini</a></p>
                     </div>
                     <div className="notAccepted" hidden={this.state.GDPRAccepted}>
